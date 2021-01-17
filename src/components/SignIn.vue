@@ -29,7 +29,8 @@ import firebase from 'firebase'
 
 const client = axios.create({
   baseURL: 'http://159.89.80.186:3000',
-  json: true
+  json: true,
+  withCredentials: true
 })
 
 export default {
